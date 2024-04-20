@@ -1,0 +1,67 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+.react-hot-toast {
+  filter: none !important;
+  z-index: 9999999;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+
+.cardHover:hover {
+  box-shadow: 10px,
+
+}
+@media print {
+  @page {
+    size: landscape; 
+  }
+}
+
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+
+code[class*='language-'] {
+  padding: 0;
+}
+
+.css-bwjvwr-MuiTypography-root {
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+}
+
+.scrollbar-container {
+
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+
+.css-pwy4ps-MuiDivider-root:not(.MuiDivider-vertical) {
+  margin-top: 0 rem;
+  margin-bottom: 0 rem;
+}
+
+.css-1m8ajc-MuiListSubheader-root {
+  padding-bottom: 0%;
+}
+
+/* table,
+th,
+td {
+  border: 1px solid black;
+} */

@@ -1,0 +1,111 @@
+div {
+  display: block;
+}
+
+.flex-add {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  margin-top: 100px;
+}
+
+/* Table header style */
+th {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Table body style */
+td {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 50px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row background color */
+tbody tr:nth-child(even) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #bfc2c0;
+}
+
+tbody tr:nth-child(odd) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #a3aca6;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Styling for the first column (User ID) */
+td:first-child {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.noTrans {
+  position: absolute;
+  top: 150px;
+  height: 500px;
+  width: 700px;
+}
+
+.logout {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.logout:hover {
+  background-color: #45a049;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.request-header {
+  display: flex;
+}
+
+.loading-container {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  /* Ensure the loading indicator appears above other content */
+}
+
+.loading-gif {
+  display: block;
+  width: 100px;
+  /* Adjust the width of the loading GIF as needed */
+  height: auto;
+  /* width:100%;height:0;padding-bottom:56%;position:relative; */
+}

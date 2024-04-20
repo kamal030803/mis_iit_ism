@@ -1,0 +1,56 @@
+.progress {
+    height:728px;
+    width: 1519px;
+    filter:blur(4px);
+}
+.cir {
+    height : 200px;
+    width : 200px;
+  }
+  .first {
+    position: absolute;
+    left : 300px;
+    top : 200px;
+  }
+  .second {
+    position: absolute;
+    left : 650px;
+    top : 200px;
+  }
+  .third {
+    position: absolute;
+    left : 1000px;
+    top : 200px;
+  }
+  .one {
+    position:absolute;
+    left: 370px;
+    top:180px;
+    color:white;
+    font-size: 100px;
+  }
+  .two {
+    position:absolute;
+    left: 720px;
+    top:180px;
+    color:white;
+    font-size: 100px;
+  }
+  .three {
+    position:absolute;
+    left: 1070px;
+    top:180px;
+    color:white;
+    font-size: 100px;
+  }
+  .Message {
+    position:absolute;
+    top:460px;
+    color:white;
+  }
+  .Message2 {
+    position:absolute;
+    top:600px;
+    left:370px;
+    color:white;
+  }
